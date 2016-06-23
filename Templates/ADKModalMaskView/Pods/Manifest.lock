@@ -1,0 +1,26 @@
+PODS:
+  - AppDevKit (1.0.0):
+    - AppDevKit/AppDevAnimateKit (= 1.0.0)
+    - AppDevKit/AppDevCommonKit (= 1.0.0)
+    - AppDevKit/AppDevImageKit (= 1.0.0)
+    - AppDevKit/AppDevListViewKit (= 1.0.0)
+    - AppDevKit/AppDevUIKit (= 1.0.0)
+  - AppDevKit/AppDevAnimateKit (1.0.0)
+  - AppDevKit/AppDevCommonKit (1.0.0)
+  - AppDevKit/AppDevImageKit (1.0.0):
+    - AppDevKit/AppDevCommonKit
+  - AppDevKit/AppDevListViewKit (1.0.0):
+    - AppDevKit/AppDevCommonKit
+    - AppDevKit/AppDevUIKit
+  - AppDevKit/AppDevUIKit (1.0.0):
+    - AppDevKit/AppDevCommonKit
+
+DEPENDENCIES:
+  - AppDevKit
+
+SPEC CHECKSUMS:
+  AppDevKit: 88b6025aeaf971fe532e53a2dcb05cb3e03e090e
+
+PODFILE CHECKSUM: 83dbbeb357a4d708f9ce54c0f4c1d79716af4121
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9ADEC41D12E739006FDCA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9ADEC31D12E739006FDCA0 /* main.m */; };
+		3C9ADEC71D12E739006FDCA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9ADEC61D12E739006FDCA0 /* AppDelegate.m */; };
+		3C9ADECA1D12E739006FDCA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9ADEC91D12E739006FDCA0 /* ViewController.m */; };
+		3C9ADECD1D12E739006FDCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9ADECB1D12E739006FDCA0 /* Main.storyboard */; };
+		3C9ADECF1D12E739006FDCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9ADECE1D12E739006FDCA0 /* Assets.xcassets */; };
+		3C9ADED21D12E739006FDCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9ADED01D12E739006FDCA0 /* LaunchScreen.storyboard */; };
+		4DBCE90EE1C3BB7E07F0A0D0 /* libPods-ADKDashedLineView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 663C71D45B7C07FFAEB6FD2E /* libPods-ADKDashedLineView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17B6A265DF2FDC968DB47D1A /* Pods-ADKDashedLineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADKDashedLineView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADKDashedLineView/Pods-ADKDashedLineView.release.xcconfig"; sourceTree = "<group>"; };
+		3C9ADEBF1D12E739006FDCA0 /* ADKDashedLineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADKDashedLineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9ADEC31D12E739006FDCA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C9ADEC51D12E739006FDCA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C9ADEC61D12E739006FDCA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C9ADEC81D12E739006FDCA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C9ADEC91D12E739006FDCA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C9ADECC1D12E739006FDCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C9ADECE1D12E739006FDCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9ADED11D12E739006FDCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C9ADED31D12E739006FDCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663C71D45B7C07FFAEB6FD2E /* libPods-ADKDashedLineView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADKDashedLineView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD02D224E6BAF5C4D2487D0 /* Pods-ADKDashedLineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADKDashedLineView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADKDashedLineView/Pods-ADKDashedLineView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9ADEBC1D12E739006FDCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBCE90EE1C3BB7E07F0A0D0 /* libPods-ADKDashedLineView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E7CB22C8072CB53CE668AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFD02D224E6BAF5C4D2487D0 /* Pods-ADKDashedLineView.debug.xcconfig */,
+				17B6A265DF2FDC968DB47D1A /* Pods-ADKDashedLineView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21948E42FF3405AE807E9BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				663C71D45B7C07FFAEB6FD2E /* libPods-ADKDashedLineView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C9ADEB61D12E739006FDCA0 = {
+			isa = PBXGroup;
+			children = (
+				3C9ADEC11D12E739006FDCA0 /* ADKDashedLineView */,
+				3C9ADEC01D12E739006FDCA0 /* Products */,
+				03E7CB22C8072CB53CE668AC /* Pods */,
+				21948E42FF3405AE807E9BFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9ADEC01D12E739006FDCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9ADEBF1D12E739006FDCA0 /* ADKDashedLineView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9ADEC11D12E739006FDCA0 /* ADKDashedLineView */ = {
+			isa = PBXGroup;
+			children = (
+				3C9ADEC51D12E739006FDCA0 /* AppDelegate.h */,
+				3C9ADEC61D12E739006FDCA0 /* AppDelegate.m */,
+				3C9ADEC81D12E739006FDCA0 /* ViewController.h */,
+				3C9ADEC91D12E739006FDCA0 /* ViewController.m */,
+				3C9ADECB1D12E739006FDCA0 /* Main.storyboard */,
+				3C9ADECE1D12E739006FDCA0 /* Assets.xcassets */,
+				3C9ADED01D12E739006FDCA0 /* LaunchScreen.storyboard */,
+				3C9ADED31D12E739006FDCA0 /* Info.plist */,
+				3C9ADEC21D12E739006FDCA0 /* Supporting Files */,
+			);
+			path = ADKDashedLineView;
+			sourceTree = "<group>";
+		};
+		3C9ADEC21D12E739006FDCA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9ADEC31D12E739006FDCA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9ADEBE1D12E739006FDCA0 /* ADKDashedLineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9ADED61D12E739006FDCA0 /* Build configuration list for PBXNativeTarget "ADKDashedLineView" */;
+			buildPhases = (
+				64EF6D3894FCFB19CA7DEDCB /* [CP] Check Pods Manifest.lock */,
+				3C9ADEBB1D12E739006FDCA0 /* Sources */,
+				3C9ADEBC1D12E739006FDCA0 /* Frameworks */,
+				3C9ADEBD1D12E739006FDCA0 /* Resources */,
+				2E1D3E17A33D2DF5415B4B8F /* [CP] Embed Pods Frameworks */,
+				92F117B46FF17BCB80B58B17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADKDashedLineView;
+			productName = ADKDashedLineView;
+			productReference = 3C9ADEBF1D12E739006FDCA0 /* ADKDashedLineView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9ADEB71D12E739006FDCA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yahoo;
+				TargetAttributes = {
+					3C9ADEBE1D12E739006FDCA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C9ADEBA1D12E739006FDCA0 /* Build configuration list for PBXProject "ADKDashedLineView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9ADEB61D12E739006FDCA0;
+			productRefGroup = 3C9ADEC01D12E739006FDCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9ADEBE1D12E739006FDCA0 /* ADKDashedLineView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9ADEBD1D12E739006FDCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9ADED21D12E739006FDCA0 /* LaunchScreen.storyboard in Resources */,
+				3C9ADECF1D12E739006FDCA0 /* Assets.xcassets in Resources */,
+				3C9ADECD1D12E739006FDCA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E1D3E17A33D2DF5415B4B8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADKDashedLineView/Pods-ADKDashedLineView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64EF6D3894FCFB19CA7DEDCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92F117B46FF17BCB80B58B17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADKDashedLineView/Pods-ADKDashedLineView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9ADEBB1D12E739006FDCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9ADECA1D12E739006FDCA0 /* ViewController.m in Sources */,
+				3C9ADEC71D12E739006FDCA0 /* AppDelegate.m in Sources */,
+				3C9ADEC41D12E739006FDCA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C9ADECB1D12E739006FDCA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9ADECC1D12E739006FDCA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C9ADED01D12E739006FDCA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9ADED11D12E739006FDCA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C9ADED41D12E739006FDCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C9ADED51D12E739006FDCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9ADED71D12E739006FDCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD02D224E6BAF5C4D2487D0 /* Pods-ADKDashedLineView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADKDashedLineView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.ADKDashedLineView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C9ADED81D12E739006FDCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B6A265DF2FDC968DB47D1A /* Pods-ADKDashedLineView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADKDashedLineView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.ADKDashedLineView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9ADEBA1D12E739006FDCA0 /* Build configuration list for PBXProject "ADKDashedLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9ADED41D12E739006FDCA0 /* Debug */,
+				3C9ADED51D12E739006FDCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9ADED61D12E739006FDCA0 /* Build configuration list for PBXNativeTarget "ADKDashedLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9ADED71D12E739006FDCA0 /* Debug */,
+				3C9ADED81D12E739006FDCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9ADEB71D12E739006FDCA0 /* Project object */;
+}

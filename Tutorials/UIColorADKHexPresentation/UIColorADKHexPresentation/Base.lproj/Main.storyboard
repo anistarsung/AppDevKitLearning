@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WKE-Wk-KG1">
+                                <rect key="frame" x="163" y="125" width="274" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="LJO-FS-hUc"/>
+                                    <constraint firstAttribute="height" constant="28" id="kac-yU-5eS"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Auction"/>
+                                    <segment title="Marketplace"/>
+                                    <segment title="Shopping"/>
+                                </segments>
+                                <connections>
+                                    <action selector="ecSegmentedControlTapHandler:" destination="BYZ-38-t0r" eventType="valueChanged" id="gWD-aw-hDL"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yahoo eCommerce" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="TcE-HM-Jsg">
+                                <rect key="frame" x="20" y="58" width="560" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="TTV-1T-REW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hq8-3K-wPJ">
+                                <rect key="frame" x="225" y="177" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Ajt-4Z-rGd"/>
+                                    <constraint firstAttribute="height" constant="150" id="jcQ-lG-hsW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update background color with HEX presentation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xIZ-oS-fce">
+                                <rect key="frame" x="20" y="354" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="NOm-fh-XqF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xIZ-oS-fce" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="24o-Nc-zKS"/>
+                            <constraint firstItem="TcE-HM-Jsg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="4A7-pl-ibe"/>
+                            <constraint firstAttribute="trailing" secondItem="xIZ-oS-fce" secondAttribute="trailing" constant="20" id="4KA-hR-7Bj"/>
+                            <constraint firstItem="Hq8-3K-wPJ" firstAttribute="top" secondItem="WKE-Wk-KG1" secondAttribute="bottom" constant="24" id="7qw-gk-uD1"/>
+                            <constraint firstAttribute="trailing" secondItem="TcE-HM-Jsg" secondAttribute="trailing" constant="20" id="DE4-3p-bc1"/>
+                            <constraint firstItem="xIZ-oS-fce" firstAttribute="top" secondItem="Hq8-3K-wPJ" secondAttribute="bottom" constant="27" id="Gdh-Sr-eAp"/>
+                            <constraint firstItem="Hq8-3K-wPJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J2O-EH-4ba"/>
+                            <constraint firstItem="WKE-Wk-KG1" firstAttribute="top" secondItem="TcE-HM-Jsg" secondAttribute="bottom" constant="8" id="fSp-rm-ThB"/>
+                            <constraint firstItem="TcE-HM-Jsg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="qVN-dc-FKL"/>
+                            <constraint firstItem="WKE-Wk-KG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vgJ-Tz-FND"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="xIZ-oS-fce" id="2nY-lm-mlu"/>
+                        <outlet property="ecSegmentedControl" destination="WKE-Wk-KG1" id="Ccn-4d-f3b"/>
+                        <outlet property="logoImageView" destination="Hq8-3K-wPJ" id="L6R-yo-axt"/>
+                        <outlet property="titleLabel" destination="TcE-HM-Jsg" id="Xqe-He-jge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="865" y="627"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A900431D1521DC005E40BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A900421D1521DC005E40BD /* AppDelegate.swift */; };
+		00A900451D1521DD005E40BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A900441D1521DD005E40BD /* ViewController.swift */; };
+		00A900481D1521DD005E40BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A900461D1521DD005E40BD /* Main.storyboard */; };
+		00A9004A1D1521DD005E40BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A900491D1521DD005E40BD /* Assets.xcassets */; };
+		00A9004D1D1521DD005E40BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A9004B1D1521DD005E40BD /* LaunchScreen.storyboard */; };
+		00A900581D1521DD005E40BD /* ADKonSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A900571D1521DD005E40BD /* ADKonSwiftTests.swift */; };
+		B1E338430F80D1B6EB5E3BB3 /* libPods-ADKonSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE334F2369C2ABA6A7F4B4F /* libPods-ADKonSwift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A900541D1521DD005E40BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A900371D1521DC005E40BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A9003E1D1521DC005E40BD;
+			remoteInfo = ADKonSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A9003F1D1521DC005E40BD /* ADKonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADKonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A900421D1521DC005E40BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A900441D1521DD005E40BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00A900471D1521DD005E40BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A900491D1521DD005E40BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A9004C1D1521DD005E40BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A9004E1D1521DD005E40BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A900531D1521DD005E40BD /* ADKonSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADKonSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A900571D1521DD005E40BD /* ADKonSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADKonSwiftTests.swift; sourceTree = "<group>"; };
+		00A900591D1521DD005E40BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A900621D1525C5005E40BD /* ADKonSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADKonSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BE334F2369C2ABA6A7F4B4F /* libPods-ADKonSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADKonSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72620CEDD455F5B48C4CF73E /* Pods-ADKonSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADKonSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADKonSwift/Pods-ADKonSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A28837A8D099A2AA0B205FF6 /* Pods-ADKonSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADKonSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADKonSwift/Pods-ADKonSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A9003C1D1521DC005E40BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E338430F80D1B6EB5E3BB3 /* libPods-ADKonSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A900501D1521DD005E40BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A900361D1521DC005E40BD = {
+			isa = PBXGroup;
+			children = (
+				00A900411D1521DC005E40BD /* ADKonSwift */,
+				00A900561D1521DD005E40BD /* ADKonSwiftTests */,
+				00A900401D1521DC005E40BD /* Products */,
+				F99725AFBD1AEA136B41F07F /* Pods */,
+				6516B00E0721050E7FB312E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00A900401D1521DC005E40BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A9003F1D1521DC005E40BD /* ADKonSwift.app */,
+				00A900531D1521DD005E40BD /* ADKonSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A900411D1521DC005E40BD /* ADKonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				00A900421D1521DC005E40BD /* AppDelegate.swift */,
+				00A900441D1521DD005E40BD /* ViewController.swift */,
+				00A900461D1521DD005E40BD /* Main.storyboard */,
+				00A900491D1521DD005E40BD /* Assets.xcassets */,
+				00A9004B1D1521DD005E40BD /* LaunchScreen.storyboard */,
+				00A9004E1D1521DD005E40BD /* Info.plist */,
+				00A900621D1525C5005E40BD /* ADKonSwift-Bridging-Header.h */,
+			);
+			path = ADKonSwift;
+			sourceTree = "<group>";
+		};
+		00A900561D1521DD005E40BD /* ADKonSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A900571D1521DD005E40BD /* ADKonSwiftTests.swift */,
+				00A900591D1521DD005E40BD /* Info.plist */,
+			);
+			path = ADKonSwiftTests;
+			sourceTree = "<group>";
+		};
+		6516B00E0721050E7FB312E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE334F2369C2ABA6A7F4B4F /* libPods-ADKonSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F99725AFBD1AEA136B41F07F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72620CEDD455F5B48C4CF73E /* Pods-ADKonSwift.debug.xcconfig */,
+				A28837A8D099A2AA0B205FF6 /* Pods-ADKonSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A9003E1D1521DC005E40BD /* ADKonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A9005C1D1521DD005E40BD /* Build configuration list for PBXNativeTarget "ADKonSwift" */;
+			buildPhases = (
+				D1F2215AE0DEC0AEB929941F /* [CP] Check Pods Manifest.lock */,
+				00A9003B1D1521DC005E40BD /* Sources */,
+				00A9003C1D1521DC005E40BD /* Frameworks */,
+				00A9003D1D1521DC005E40BD /* Resources */,
+				469C4D33E0E9735E8D406B07 /* [CP] Embed Pods Frameworks */,
+				EF15131D82C5B0D3C63F0E25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADKonSwift;
+			productName = ADKonSwift;
+			productReference = 00A9003F1D1521DC005E40BD /* ADKonSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A900521D1521DD005E40BD /* ADKonSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A9005F1D1521DD005E40BD /* Build configuration list for PBXNativeTarget "ADKonSwiftTests" */;
+			buildPhases = (
+				00A9004F1D1521DD005E40BD /* Sources */,
+				00A900501D1521DD005E40BD /* Frameworks */,
+				00A900511D1521DD005E40BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A900551D1521DD005E40BD /* PBXTargetDependency */,
+			);
+			name = ADKonSwiftTests;
+			productName = ADKonSwiftTests;
+			productReference = 00A900531D1521DD005E40BD /* ADKonSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A900371D1521DC005E40BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yahoo;
+				TargetAttributes = {
+					00A9003E1D1521DC005E40BD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					00A900521D1521DD005E40BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 00A9003E1D1521DC005E40BD;
+					};
+				};
+			};
+			buildConfigurationList = 00A9003A1D1521DC005E40BD /* Build configuration list for PBXProject "ADKonSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A900361D1521DC005E40BD;
+			productRefGroup = 00A900401D1521DC005E40BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A9003E1D1521DC005E40BD /* ADKonSwift */,
+				00A900521D1521DD005E40BD /* ADKonSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A9003D1D1521DC005E40BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A9004D1D1521DD005E40BD /* LaunchScreen.storyboard in Resources */,
+				00A9004A1D1521DD005E40BD /* Assets.xcassets in Resources */,
+				00A900481D1521DD005E40BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A900511D1521DD005E40BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		469C4D33E0E9735E8D406B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADKonSwift/Pods-ADKonSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F2215AE0DEC0AEB929941F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF15131D82C5B0D3C63F0E25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADKonSwift/Pods-ADKonSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A9003B1D1521DC005E40BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A900451D1521DD005E40BD /* ViewController.swift in Sources */,
+				00A900431D1521DC005E40BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A9004F1D1521DD005E40BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A900581D1521DD005E40BD /* ADKonSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A900551D1521DD005E40BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A9003E1D1521DC005E40BD /* ADKonSwift */;
+			targetProxy = 00A900541D1521DD005E40BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A900461D1521DD005E40BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A900471D1521DD005E40BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A9004B1D1521DD005E40BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A9004C1D1521DD005E40BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A9005A1D1521DD005E40BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A9005B1D1521DD005E40BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A9005D1D1521DD005E40BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72620CEDD455F5B48C4CF73E /* Pods-ADKonSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADKonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.ADKonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADKonSwift/ADKonSwift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		00A9005E1D1521DD005E40BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28837A8D099A2AA0B205FF6 /* Pods-ADKonSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADKonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.ADKonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADKonSwift/ADKonSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		00A900601D1521DD005E40BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADKonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.ADKonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADKonSwift.app/ADKonSwift";
+			};
+			name = Debug;
+		};
+		00A900611D1521DD005E40BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADKonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.ADKonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADKonSwift.app/ADKonSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A9003A1D1521DC005E40BD /* Build configuration list for PBXProject "ADKonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A9005A1D1521DD005E40BD /* Debug */,
+				00A9005B1D1521DD005E40BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A9005C1D1521DD005E40BD /* Build configuration list for PBXNativeTarget "ADKonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A9005D1D1521DD005E40BD /* Debug */,
+				00A9005E1D1521DD005E40BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A9005F1D1521DD005E40BD /* Build configuration list for PBXNativeTarget "ADKonSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A900601D1521DD005E40BD /* Debug */,
+				00A900611D1521DD005E40BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A900371D1521DC005E40BD /* Project object */;
+}
