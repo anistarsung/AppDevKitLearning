@@ -21,12 +21,39 @@ This REPO includes learning materials of AppDevKit. If you want to use these mat
 ### Practice sample
 
   - **ADKDashedLineView** > Practiced project for demostrate ADKDashedLineView.
+
+  <img src="img/ADKDashedLineView.jpg">
+
   - **ADKGradientView** > Practiced project for demostrate ADKGradientView.
+
+  <img src="img/ADKGradientView.jpg">
+
   - **ADKModalMaskView** > Practiced project for demostrate ADKModalMaskView.
+
+  <img src="img/ADKModalMaskView.gif">
+
   - **ADKNibSizeCalculator** > Practiced project for demostrate ADKNibSizeCalculator.
-  - **UIColorADKHexPresentation** > Practiced project for demostrate ADKDashedLineView.
+
+  <img src="img/ADKNibSizeCalculator.gif">
+
+  - **UIColorADKHexPresentation** > Practiced project for demostrate UIColorADKHexPresentation.
+  
+  <img src="img/UIColorADKHexPresentation.gif">
+
   - **UIImageADKImageFilter** > Practiced project for demostrate UIImage+ADKImageFilter.
+  
+  <img src="img/UIImageADKImageFilter.gif">
+  
   - **UIScrollViewADKPullToRefreshView** > Practiced project for demostrate UIScrollView+ADKPullToRefreshView.
+  
+  <img src="img/UIScrollViewADKPullToRefreshView.gif">
+  
   - **UIViewADKAnimationMacro** > Practiced project for demostrate UIView+ADKAnimationMacro.
+  
+  <img src="img/UIViewADKAnimationMacro.gif">
+  
   - **UIViewADKAutoLayoutSupport** > Practiced project for demostrate UIView+ADKAutoLayoutSupport.
+  
+  <img src="img/UIViewADKAutoLayoutSupport.gif">
+  
   - **ADKonSwift** > Demonstrate for using Swift with AppDevKit.
